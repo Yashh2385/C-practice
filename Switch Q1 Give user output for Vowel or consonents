@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+int main() {
+    
+    char Value;
+  
+    
+    printf("Enter any Charscter \n");
+    scanf("%c", &Value);
+    
+   
+    
+    switch (Value)
+    {
+        case 'a' : 
+            printf("You have entered a Vowel");
+            break;
+
+        case 'e' : printf("You have entered a Vowel");
+            break;
+
+        case 'i' : printf("You have entered a Vowel");
+            break;
+
+        case 'o' : printf("You have entered a Vowel");
+            break;
+
+        case 'u' : printf("You have entered a Vowel");
+            break;
+
+        default : printf("You have entered a Consonent");
+    }
+    
+    
+
+    return 0;
+}
