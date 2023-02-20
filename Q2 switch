@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+int main() {
+    
+    char Input;
+  
+    
+    printf("Enter any Charscter \n");
+    scanf("%c", &Input);
+    
+   
+    
+    switch (Input)
+    {
+        case 'r' : 
+            printf("It's a rectangle");
+            break;
+
+        case 's' : printf("It's a square");
+            break;
+
+        case 't' : printf("It's a triangle");
+            break;
+
+        case 'rh' : printf("It's a rhombus"");
+            break;
+
+        
+        default : printf("You have entered a wrong");
+    }
+    
+    
+
+    return 0;
+}
