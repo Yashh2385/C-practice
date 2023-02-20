@@ -1,0 +1,45 @@
+#include <stdio.h>
+
+int main() {
+    
+    int a, b;
+    char o;
+    
+    printf("Enter any value of a\n");
+    scanf("%d", &a);
+
+
+    printf("Enter any value of b\n");
+    scanf("%d", &b);
+    fflush(stdin);
+
+    printf("Enter the operation, which you have to execute\n");
+    scanf("%c", &o);
+   
+    
+    switch (o)
+    {
+        case '+' : 
+            printf(" sum is : %d", a+b);
+            break;
+
+        case '-' : printf(" difference is : %d", a-b);
+            break;
+
+        case '*' : printf(" multiplication is : %d", a*b);
+            break;
+
+        case '%' : printf(" modulus is : %d", a%b);
+            break;
+
+        case '/' : printf(" division is : %d", a/b);
+            break;
+
+        
+        default : printf("You have entered a wrong");
+    }
+    
+    
+
+    return 0;
+}
